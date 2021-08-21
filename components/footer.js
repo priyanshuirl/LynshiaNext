@@ -18,7 +18,7 @@ export default function Footer() {
     return (
         <div>
             <Head>
-                <Script src="https://kit.fontawesome.com/2ac5c57d76.js" crossOrigin="anonymous"></Script>
+                <Script src="https://kit.fontawesome.com/2ac5c57d76.js"></Script>
             </Head>
             <div className={`${styles.purplediv} vflex`}>
                 <h2>Making Periods Easier to Manage.</h2>

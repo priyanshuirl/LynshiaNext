@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <div className={`${styles.fixnav} vflex`}>
             <Head>
-                <Script src="https://kit.fontawesome.com/2ac5c57d76.js" crossOrigin="anonymous"></Script>
+                <Script src="https://kit.fontawesome.com/2ac5c57d76.js"></Script>
             </Head>
             <nav className="hflex">
                 <Link href="/"><a><div className={`${styles.logo} vflex`}>
