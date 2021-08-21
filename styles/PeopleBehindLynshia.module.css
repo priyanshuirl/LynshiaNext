@@ -1,0 +1,49 @@
+.pblbanner {
+  align-items: center;
+  background: rgb(199, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(94, 23, 235, 1) 100%
+  );
+  width: 100%;
+  height: 250px;
+}
+.pblbanner h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  color: #fff;
+  margin: 60px 20px 20px 20px;
+}
+.pblcont h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: #c700ff;
+  margin: 20px 20px 60px 20px;
+}
+@media all and (min-width: 700px) {
+  .pblbanner {
+    height: 350px;
+  }
+  .pblbanner h1 {
+    font-size: 100px;
+    margin: 40px;
+  }
+  .pblcont h2 {
+    font-size: 70px;
+    margin: 40px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .pblbanner {
+    height: 500px;
+  }
+  .pblbanner h1 {
+    font-size: 160px;
+    margin: 40px;
+  }
+  .pblcont h2 {
+    font-size: 100px;
+    margin: 60px;
+  }
+}

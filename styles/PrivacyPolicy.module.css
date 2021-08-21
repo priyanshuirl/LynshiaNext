@@ -1,0 +1,68 @@
+.privpol {
+  justify-content: space-around;
+  padding: 20px;
+  margin: 5px;
+}
+.privpol p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 5px;
+}
+.privp {
+  height: 200px !important;
+}
+.pblbanner {
+  align-items: center;
+  background: rgb(199, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(94, 23, 235, 1) 100%
+  );
+  width: 100%;
+  height: 250px;
+}
+.pblbanner h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  color: #fff;
+  margin: 60px 20px 20px 20px;
+}
+@media all and (min-width: 700px) {
+  .privp {
+    height: 250px !important;
+  }
+  .privpol {
+    padding: 40px;
+    margin: 10px;
+  }
+  .privpol p {
+    font-size: 20px;
+  }
+  .pblbanner {
+    height: 350px;
+  }
+  .pblbanner h1 {
+    font-size: 100px;
+    margin: 40px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .privp {
+    height: 300px !important;
+  }
+  .privpol {
+    padding: 80px;
+    margin: 20px;
+  }
+  .privpol p {
+    font-size: 24px;
+  }
+  .pblbanner {
+    height: 500px;
+  }
+  .pblbanner h1 {
+    font-size: 160px;
+    margin: 40px;
+  }
+}

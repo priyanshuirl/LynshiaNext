@@ -1,0 +1,128 @@
+.logo {
+  padding: 3px;
+  margin: 3px;
+  color: #c700ff;
+  align-items: center;
+}
+.logo h3 {
+  font-size: 28px;
+  font-family: "Dosis", sans-serif;
+}
+.logo p {
+  font-size: 9px;
+  font-family: sans-serif;
+}
+.dmenu {
+  display: none;
+}
+.lol li {
+  border: 1px solid #c700ff;
+  border-radius: 50px;
+  padding: 5px 7px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 5px;
+  font-size: 16px;
+}
+.signup {
+  background-color: #c700ff;
+  color: #fff;
+}
+.login {
+  color: #c700ff;
+}
+.signup:hover {
+  background-color: #8c52ff;
+  border-color: #8c52ff;
+}
+.login:hover {
+  color: #8c52ff;
+  border-color: #8c52ff;
+}
+.lol i {
+  color: #c700ff;
+  font-size: 35px;
+  margin: 14px 8px;
+}
+.fixnav {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-top: 5px solid #c700ff;
+  z-index: 10;
+}
+.menu {
+  align-items: center;
+  text-align: center;
+  color: #c700ff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.menu li {
+  padding: 10px;
+  margin: 10px 0px;
+}
+.menu ul {
+  width: 100%;
+}
+.ulhvr li {
+  color: #c700ff;
+}
+.ulhvr li:hover {
+  color: #8c52ff;
+}
+.ulhvr .selected {
+  color: #8c52ff;
+}
+.one,
+.two,
+.three,
+.four {
+  display: none;
+}
+@media all and (min-width: 700px) {
+  .logo h3 {
+    font-size: 36px;
+  }
+  .logo p {
+    font-size: 11px;
+  }
+  .logo {
+    margin: 6px;
+  }
+  .dlist li {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #c700ff;
+    margin: 5px 20px;
+  }
+  .dlist li:hover {
+    color: #8c52ff;
+  }
+  .dlist .selected {
+    color: #8c52ff;
+  }
+  .lol li {
+    font-size: 20px;
+    margin: 24px 5px;
+    padding: 5px 16px;
+  }
+  .lol i {
+    font-size: 45px;
+    margin: 24px 8px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .logo h3 {
+    font-size: 42px;
+  }
+  .logo p {
+    font-size: 13px;
+  }
+  .dmenu {
+    display: flex;
+    margin: 20px;
+  }
+  .lol i {
+    display: none;
+  }
+}

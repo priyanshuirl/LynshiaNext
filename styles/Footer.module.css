@@ -1,0 +1,199 @@
+.logo {
+  padding: 3px;
+  margin: 3px;
+  color: #c700ff;
+  align-items: center;
+}
+.logo h3 {
+  font-size: 28px;
+  font-family: "Dosis", sans-serif;
+}
+.logo p {
+  font-size: 9px;
+  font-family: sans-serif;
+}
+.flogo {
+  margin-top: 10px;
+}
+.flogo h3 {
+  font-size: 40px;
+}
+.flogo p {
+  font-size: 13px;
+}
+.social {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.social i {
+  margin: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+.social p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.social i:hover {
+  color: #8c52ff;
+}
+.list a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.list a:hover {
+  color: #8c52ff;
+}
+.footh {
+  color: #c700ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.foot {
+  flex-direction: column-reverse;
+}
+.footone {
+  margin: 10px;
+}
+.copytoast {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #c700ff;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  display: none;
+}
+.displaytoast {
+  display: block;
+}
+li .selected {
+  color: #8c52ff;
+}
+.dmca {
+  margin-top: 15px;
+}
+.purplediv {
+  height: auto;
+  width: 100%;
+  background: rgb(199, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(94, 23, 235, 1) 100%
+  );
+  padding: 60px 10px;
+  align-items: center;
+  margin-top: 40px;
+}
+.purplediv h2 {
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  margin: 30px;
+}
+.purplediv h4 {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  color: #8c52ff;
+  font-family: "Poppins", sans-serif;
+}
+@media all and (min-width: 700px) {
+  .logo h3 {
+    font-size: 36px;
+  }
+  .logo p {
+    font-size: 11px;
+  }
+  .logo {
+    margin: 6px;
+  }
+  .foot {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px 0px;
+  }
+  .list {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+  }
+  .copytoast {
+    bottom: 15%;
+    left: 30%;
+  }
+  .social i {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .social p {
+    font-size: 14px;
+  }
+  .list a {
+    font-size: 16px;
+  }
+  .purplediv h2 {
+    font-size: 100px;
+  }
+  .purplediv h4 {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .logo h3 {
+    font-size: 42px;
+  }
+  .logo p {
+    font-size: 13px;
+  }
+  .flogo h3 {
+    font-size: 60px;
+  }
+  .flogo p {
+    font-size: 18px;
+  }
+  .social i {
+    font-size: 35px;
+    margin: 10px;
+  }
+  .social p {
+    font-size: 22px;
+  }
+  .footh {
+    font-size: 30px;
+  }
+  .footone {
+    margin: 30px;
+  }
+  .list {
+    margin-right: 50px;
+  }
+  .list a {
+    font-size: 20px;
+  }
+  .foot {
+    padding-left: 40px;
+  }
+  .purplediv {
+    padding: 80px 10px;
+  }
+  .purplediv h2 {
+    font-size: 140px;
+    margin: 40px 140px;
+  }
+  .purplediv h4 {
+    margin-top: 40px;
+  }
+}

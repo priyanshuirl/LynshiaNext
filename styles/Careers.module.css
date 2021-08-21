@@ -1,0 +1,174 @@
+.careerbanner {
+  background: rgb(199, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(94, 23, 235, 1) 100%
+  );
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.careerbanner h1 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 50px;
+}
+.clogo {
+  padding: 3px;
+  margin: 3px;
+  color: #fff;
+  align-items: center;
+}
+.clogo h3 {
+  font-size: 60px;
+  font-family: "Dosis", sans-serif;
+}
+.clogo p {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.careercont {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 10px;
+}
+.careercont h4 {
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #c700ff;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.75);
+  font-weight: 600;
+}
+.careercont h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: #c700ff;
+  margin: 35px;
+}
+.careercont p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+}
+.careerdesc {
+  align-items: center;
+  justify-content: space-around;
+}
+.careerban {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900;
+  font-size: 35px !important;
+}
+.tagbanner {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  height: auto;
+  color: #fff;
+  border-radius: 25px;
+  background: rgb(218, 15, 255);
+  background: radial-gradient(
+    circle,
+    rgba(218, 15, 255, 1) 16%,
+    rgba(179, 44, 255, 1) 72%,
+    rgba(127, 82, 255, 1) 100%
+  );
+  background-size: 400%;
+  animation-name: steam;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.tagbanner h1 {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+}
+@keyframes steam {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+@media all and (min-width: 700px) {
+  .careerbanner {
+    flex-direction: row;
+    padding: 50px 25px;
+  }
+  .careerbanner h1 {
+    margin-top: 0px;
+    margin-left: 60px;
+  }
+  .clogo {
+    margin-left: 30px;
+  }
+  .clogo h3 {
+    font-size: 70px;
+  }
+  .clogo p {
+    font-size: 20px;
+  }
+  .careercont {
+    padding: 25px;
+  }
+  .careercont h3 {
+    font-size: 90px;
+  }
+  .careercont h4 {
+    font-size: 40px;
+  }
+  .careercont p {
+    font-size: 25px;
+  }
+  .careerdesc {
+    padding-top: 20px;
+  }
+  .careerban {
+    font-size: 55px !important;
+    width: 80% !important;
+  }
+}
+@media all and (min-width: 1200px) {
+  .careerbanner {
+    padding: 120px;
+  }
+  .careerbanner h1 {
+    font-size: 70px;
+    margin-left: 70px;
+  }
+  .clogo {
+    margin-left: 50px;
+  }
+  .clogo h3 {
+    font-size: 100px;
+  }
+  .clogo p {
+    font-size: 30px;
+  }
+  .careercont {
+    padding: 30px 80px;
+  }
+  .careercont h3 {
+    font-size: 110px;
+  }
+  .careercont h4 {
+    font-size: 50px;
+  }
+  .careerdesc {
+    padding: 50px 100px;
+  }
+}

@@ -1,0 +1,91 @@
+.featwrapper {
+  margin: 30px 5px;
+}
+.featimg {
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.featinfo h3 {
+  color: #c700ff;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: -20px;
+}
+.featinfo p {
+  text-align: center;
+  color: #000;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+}
+.flip {
+  flex-direction: column;
+}
+.flipinfo {
+  width: 100%;
+}
+@media all and (min-width: 700px) {
+  .featwrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 60px;
+  }
+  .featimg {
+    width: 50%;
+  }
+  .featinfo {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .featinfo h3 {
+    text-align: left;
+  }
+  .featinfo p {
+    text-align: left;
+  }
+  .flip {
+    flex-direction: row-reverse;
+  }
+  .flipimg {
+    width: 40%;
+    margin-left: 60px;
+  }
+  .flipinfo {
+    width: 60%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .featwrapper {
+    padding: 30px 200px;
+  }
+  .featimg {
+    width: 50%;
+    height: 500px;
+  }
+  .featinfo {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .featinfo p {
+    font-size: 30px;
+    text-align: left;
+  }
+  .featinfo h3 {
+    font-size: 40px;
+    text-align: left;
+  }
+  .flip {
+    flex-direction: row-reverse;
+  }
+  .flipimg {
+    width: 40%;
+    margin-left: 60px;
+  }
+  .flipinfo {
+    width: 60%;
+  }
+}

@@ -1,121 +1,326 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
+.banner {
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
+  height: 400px;
+  padding: 20px;
   align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
   text-align: center;
+  background-image: url("../public/lmao.png");
+  background-size: contain;
+  background-repeat: repeat-x;
 }
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.banner h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  color: #fff;
+  margin: 50px 10px 10px 10px;
 }
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.banner h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
 }
-
-.grid {
-  display: flex;
+.bannerbtns {
+  padding: 20px;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
 }
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+.bannerbtns a {
+  border: 1px solid #c700ff;
+  border-radius: 50px;
+  width: 90%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.loginbanner {
+  color: #c700ff;
+}
+.loginbanner:hover {
+  color: #8c52ff;
+  border-color: #8c52ff;
+}
+.signbanner {
+  background-color: #c700ff;
+  color: #fff;
+}
+.signbanner:hover {
+  background-color: #8c52ff;
+  border-color: #8c52ff;
+  color: #fff;
+}
+.tour {
+  color: #c700ff;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+}
+.tagbanner {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  height: auto;
+  color: #fff;
+  border-radius: 25px;
+  background: rgb(218, 15, 255);
+  background: radial-gradient(
+    circle,
+    rgba(218, 15, 255, 1) 16%,
+    rgba(179, 44, 255, 1) 72%,
+    rgba(127, 82, 255, 1) 100%
+  );
+  background-size: 400%;
+  animation-name: steam;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.tagbanner h1 {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+}
+.tile {
+  background-image: url("../public/tiletwo.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 420px;
+  margin: 80px 0px;
+  padding-top: 170px;
+}
+.tile h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.tagbannerlol {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+  color: #c700ff;
+}
+@keyframes steam {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.purplediv {
+  height: auto;
+  width: 100%;
+  background: rgb(199, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(94, 23, 235, 1) 100%
+  );
+  padding: 60px 10px;
+  align-items: center;
+  margin-top: 40px;
+}
+.purplediv h2 {
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  margin: 30px;
+}
+.purplediv h4 {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  color: #8c52ff;
+  font-family: "Poppins", sans-serif;
+}
+.iframecontainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframecontainer iframe {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cookienotice {
+  height: 140px;
+  width: 300px;
+  background-color: #fff;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  padding: 20px;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  flex-direction: column;
+  display: none;
 }
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.cookieactive {
+  display: flex;
+  transition: 1200ms;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.cookienotice p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: -12px;
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.cookienotice button {
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-end;
+  margin: 0px 10px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #c700ff;
+  padding: 5px 7px;
+  border-radius: 7px;
 }
+@media all and (min-width: 700px) {
+  .banner {
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 550px;
+  }
+  .banner h3 {
+    font-size: 110px;
+    margin: 30px 10px 10px 10px;
+  }
+  .banner h4 {
+    font-size: 34px;
+  }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  .bannerbtns a {
+    width: 40%;
+    font-size: 40px;
+  }
+  .tour {
+    margin: 8px;
+    font-size: 40px;
+    margin-bottom: 100px;
+  }
+  .tagbanner h1 {
+    font-size: 50px;
+  }
+  .tagbanner {
+    width: 60%;
+  }
+  .tile {
+    height: 550px;
+    padding-top: 210px;
+  }
+  .tile h5 {
+    font-size: 50px;
+  }
+  .tagwrapper {
+    flex-direction: row;
+    padding: 10px;
+  }
+  .tagbannerlol {
+    width: 40%;
+  }
+  .purplediv h2 {
+    font-size: 100px;
+  }
+  .purplediv h4 {
+    font-size: 40px;
+  }
+  .iframecontainer iframe {
+    top: 25px;
+  }
+  .cookienotice {
+    top: 96%;
+    left: 90%;
+    transform: translate(-90%, -96%);
+  }
+  .cookienotice p {
+    font-size: 14px;
+    margin-bottom: -12px;
+  }
+  .cookienotice button {
+    font-size: 16px;
+  }
 }
-
-@media (max-width: 600px) {
-  .grid {
+@media all and (min-width: 1200px) {
+  .banner {
+    height: 600px;
+  }
+  .banner h3 {
+    font-size: 130px;
+  }
+  .banner h4 {
+    font-size: 40px;
+  }
+  .tagbanner h1 {
+    font-size: 50px;
+  }
+  .tile {
+    height: 550px;
+    padding-top: 240px;
+  }
+  .tile h5 {
+    font-size: 60px;
+  }
+  .tagbanner {
+    width: 45%;
+  }
+  .tagbannerlol {
+    width: 45%;
+  }
+  .tagbanner h1 {
+    font-size: 70px;
+  }
+  .tagwrapper {
+    justify-content: space-around;
+  }
+  .tagbannerlol {
+    font-size: 50px;
+  }
+  .purplediv {
+    padding: 80px 10px;
+  }
+  .purplediv h2 {
+    font-size: 140px;
+    margin: 40px 140px;
+  }
+  .purplediv h4 {
+    margin-top: 40px;
+  }
+  .iframecontainer {
+    position: relative;
     width: 100%;
-    flex-direction: column;
+    padding-bottom: 46%;
+    height: 0;
+  }
+  .iframecontainer iframe {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 58%;
+    height: 500px;
+  }
+  .cookienotice {
+    left: 96%;
+    transform: translate(-96%, -96%);
+  }
+}
+@media all and (min-width: 1300px) {
+  .iframecontainer {
+    padding-bottom: 40%;
   }
 }
