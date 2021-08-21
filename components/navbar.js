@@ -1,8 +1,8 @@
 import $ from 'jquery';
 import styles from '../styles/Navbar.module.css'
-import Link from "next/link"
 import Head from "next/head"
 import { useState } from "react"
+import ActiveLink from './activeLink'
 
 export default function Navbar() {
     const [arrow, setArrow] = useState("fas fa-angle-double-down")
@@ -13,28 +13,28 @@ export default function Navbar() {
                 <script src="https://kit.fontawesome.com/2ac5c57d76.js"></script>
             </Head>
             <nav className="hflex">
-                <Link href="/"><a><div className={`${styles.logo} vflex`}>
+                <ActiveLink href="/"><a><div className={`${styles.logo} vflex`}>
                     <h3>Lynshia</h3>
                     <p>Menstrual Assistant</p>
                 </div></a>
-                </Link>
+                </ActiveLink>
                 <div className={`${styles.menuwrapper} hflex`}>
                     <div className={styles.dmenu}>
                         <ul className={`${styles.dlist} hflex`}>
-                            <li className={styles.done}><Link href="/" ><a>Home</a></Link></li>
-                            <li className={styles.dtwo}><Link href="/aboutus" ><a>About&nbsp;Us</a></Link></li>
-                            <li className={styles.dfour}><Link href="/careers" ><a>Careers</a></Link></li>
-                            <li className={styles.done}><Link href="/peoplebehindlynshia"><a>People&nbsp;Behind&nbsp;Lynshia</a></Link></li>
+                            <li className={styles.done}><ActiveLink activeClassName="active" href="/" ><a>Home</a></ActiveLink></li>
+                            <li className={styles.dtwo}><ActiveLink activeClassName="active" href="/aboutus" ><a>About&nbsp;Us</a></ActiveLink></li>
+                            <li className={styles.dfour}><ActiveLink activeClassName="active" href="/careers" ><a>Careers</a></ActiveLink></li>
+                            <li className={styles.done}><ActiveLink activeClassName="active" href="/peoplebehindlynshia"><a>People&nbsp;Behind&nbsp;Lynshia</a></ActiveLink></li>
                         </ul>
                     </div>
                     <div className={`${styles.navbutton} hflex`}>
                         <ul className={`${styles.lol} hflex`}>
-                            <Link href="/comingsoon">
+                            <ActiveLink activeClassName="active" href="/comingsoon">
                                 <a><li className={styles.login}>Login</li></a>
-                            </Link>
-                            <Link href="/comingsoon">
+                            </ActiveLink>
+                            <ActiveLink activeClassName="active" href="/comingsoon">
                                 <a><li className={styles.signup}>Sign&nbsp;Up</li></a>
-                            </Link>
+                            </ActiveLink>
                             <span className={styles.toggle} onClick={() => {
                                 $("#one").slideToggle(100);
                                 $("#two").slideToggle(200);
@@ -68,10 +68,10 @@ export default function Navbar() {
                         setCount(0)
                     }
                 }}>
-                    <li id="one" className={styles.one}><Link href="/"><a>Home</a></Link></li>
-                    <li id="two" className={styles.two}><Link href="/aboutus"><a>About&nbsp;Us</a></Link></li>
-                    <li id="four" className={styles.four}><Link href="/careers"><a>Careers</a></Link></li>
-                    <li id="three" className={styles.three}><Link href="/peoplebehindlynshia"><a>People&nbsp;Behind&nbsp;Lynshia</a></Link></li>
+                    <li id="one" className={styles.one}><ActiveLink activeClassName="active" href="/"><a>Home</a></ActiveLink></li>
+                    <li id="two" className={styles.two}><ActiveLink activeClassName="active" href="/aboutus"><a>About&nbsp;Us</a></ActiveLink></li>
+                    <li id="four" className={styles.four}><ActiveLink activeClassName="active" href="/careers"><a>Careers</a></ActiveLink></li>
+                    <li id="three" className={styles.three}><ActiveLink activeClassName="active" href="/peoplebehindlynshia"><a>People&nbsp;Behind&nbsp;Lynshia</a></ActiveLink></li>
                 </ul>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import styles from "../styles/Footer.module.css"
 import Head from 'next/head'
-import Link from "next/link"
+import ActiveLink from './activeLink'
 
 export default function Footer() {
     function copy() {
@@ -21,17 +21,17 @@ export default function Footer() {
             </Head>
             <div className={`${styles.purplediv} vflex`}>
                 <h2>Making Periods Easier to Manage.</h2>
-                <Link href="/comingsoon"><a><h4>Sign Up Today!</h4></a></Link>
+                <ActiveLink activeClassName="active" href="/comingsoon"><a><h4>Sign Up Today!</h4></a></ActiveLink>
             </div>
             <footer className={`${styles.foot} vflex`}>
                 <div className="vflex">
-                    <Link href="/"><a>
+                    <ActiveLink href="/"><a>
                         <div className={`${styles.logo} ${styles.flogo}`}>
                             <h3>Lynshia</h3>
                             <p>Menstrual Assistant</p>
                         </div>
                     </a>
-                    </Link>
+                    </ActiveLink>
                     <div className={styles.social}>
                         <a href="https://twitter.com/Lynshia_app" ><i className="fab fa-twitter"></i></a>
                         <a href="https://www.instagram.com/lynshia_app/"><i className="fab fa-instagram"></i></a>
@@ -44,19 +44,19 @@ export default function Footer() {
                     <div className={styles.footone}>
                         <p className={styles.footh}>Legal</p>
                         <ul>
-                            <li><Link href="/copyright"><a>Copyright</a></Link></li>
-                            <li><Link href="/privacypolicy"><a>Privacy&nbsp;Policy</a></Link></li>
-                            <li><Link href="/termsofuse"><a>Terms of Use</a></Link></li>
-                            <li><Link href="/disclaimer"><a>Disclaimer</a></Link></li>
+                            <li><ActiveLink activeClassName="active" href="/copyright"><a>Copyright</a></ActiveLink></li>
+                            <li><ActiveLink activeClassName="active" href="/privacypolicy"><a>Privacy&nbsp;Policy</a></ActiveLink></li>
+                            <li><ActiveLink activeClassName="active" href="/termsofuse"><a>Terms of Use</a></ActiveLink></li>
+                            <li><ActiveLink activeClassName="active" href="/disclaimer"><a>Disclaimer</a></ActiveLink></li>
                         </ul>
                     </div>
                     <div className={styles.footone}>
                         <p className={styles.footh}>Menu</p>
                         <ul>
-                            <li><Link href="/"><a>Home</a></Link></li>
-                            <li><Link href="/aboutus"><a>About&nbsp;Us</a></Link></li>
-                            <li><Link href="/peoplebehindlynshia"><a>People&nbsp;Behind&nbsp;Lynshia</a></Link></li>
-                            <li><Link href="/careers"><a>Careers</a></Link></li>
+                            <li><ActiveLink activeClassName="active" href="/"><a>Home</a></ActiveLink></li>
+                            <li><ActiveLink activeClassName="active" href="/aboutus"><a>About&nbsp;Us</a></ActiveLink></li>
+                            <li><ActiveLink activeClassName="active" href="/peoplebehindlynshia"><a>People&nbsp;Behind&nbsp;Lynshia</a></ActiveLink></li>
+                            <li><ActiveLink activeClassName="active" href="/careers"><a>Careers</a></ActiveLink></li>
                         </ul>
                     </div>
                     <div className={styles.footone}>

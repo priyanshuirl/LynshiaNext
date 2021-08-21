@@ -51,3 +51,6 @@ button {
   background: none;
   border: none;
 }
+.active{
+  color:#8c52ff !important;
+}
