@@ -1,6 +1,6 @@
 import styles from "../styles/Footer.module.css"
 import Head from 'next/head'
-import ActiveLink from './activeLink'
+import ActiveLink from './activeLinks'
 
 export default function Footer() {
     function copy() {

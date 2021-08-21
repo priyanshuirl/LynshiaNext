@@ -2,7 +2,7 @@ import $ from 'jquery';
 import styles from '../styles/Navbar.module.css'
 import Head from "next/head"
 import { useState } from "react"
-import ActiveLink from './activeLink'
+import ActiveLink from './activeLinks'
 
 export default function Navbar() {
     const [arrow, setArrow] = useState("fas fa-angle-double-down")
