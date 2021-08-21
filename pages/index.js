@@ -28,7 +28,7 @@ export default function Home() {
           <h1>Dealing with Periods can be Tough.</h1>
         </div>
         <div className={styles.tagbanner}>
-          <h1>But with Lynshia by your side it's never been easier!</h1>
+          <h1>But with Lynshia by your side it&apos;s never been easier!</h1>
         </div>
       </div>
       <div className={styles.iframecontainer}>

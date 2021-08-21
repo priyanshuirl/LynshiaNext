@@ -1,6 +1,7 @@
 import styles from "../styles/Footer.module.css"
 import Head from 'next/head'
 import Link from "next/link"
+import Script from 'next/script'
 
 export default function Footer() {
     function copy() {
@@ -17,7 +18,7 @@ export default function Footer() {
     return (
         <div>
             <Head>
-                <script src="https://kit.fontawesome.com/2ac5c57d76.js" crossOrigin="anonymous"></script>
+                <Script src="https://kit.fontawesome.com/2ac5c57d76.js" crossOrigin="anonymous"></Script>
             </Head>
             <div className={`${styles.purplediv} vflex`}>
                 <h2>Making Periods Easier to Manage.</h2>
@@ -65,7 +66,7 @@ export default function Footer() {
                             <a href="mailto:lynshia.app@gmail.com"><li>lynshia.app@gmail.com</li></a>
                         </ul>
                         <div className={styles.dmca}>
-                            <a href="//www.dmca.com/Protection/Status.aspx?ID=02110291-7bee-4587-aee6-ae5f55d1e5a4" title="DMCA.com Protection Status" className="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w200-2x1-03.png?ID=02110291-7bee-4587-aee6-ae5f55d1e5a4" alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                            <a href="//www.dmca.com/Protection/Status.aspx?ID=02110291-7bee-4587-aee6-ae5f55d1e5a4" title="DMCA.com Protection Status" className="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w200-2x1-03.png?ID=02110291-7bee-4587-aee6-ae5f55d1e5a4" alt="DMCA.com Protection Status" /></a>  <Script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </Script>
                         </div>
                     </div>
                 </div>

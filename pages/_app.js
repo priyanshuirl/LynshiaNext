@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Lato:wght@100&family=Montserrat:wght@700&family=Poppins:wght@300&family=Roboto:wght@100&display=swap"
           rel="stylesheet" />
         <meta charSet="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/lynshia_logo_dark.ico" />
         <meta property="og:title" content="Lynshia: Manage Periods, Reduce Pain, Track and Predict Your Cycles." />
