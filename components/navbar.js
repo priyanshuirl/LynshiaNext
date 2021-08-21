@@ -3,7 +3,6 @@ import styles from '../styles/Navbar.module.css'
 import Link from "next/link"
 import Head from "next/head"
 import { useState } from "react"
-import Script from 'next/script'
 
 export default function Navbar() {
     const [arrow, setArrow] = useState("fas fa-angle-double-down")
@@ -11,7 +10,7 @@ export default function Navbar() {
     return (
         <div className={`${styles.fixnav} vflex`}>
             <Head>
-                <Script src="https://kit.fontawesome.com/2ac5c57d76.js"></Script>
+                <script src="https://kit.fontawesome.com/2ac5c57d76.js"></script>
             </Head>
             <nav className="hflex">
                 <Link href="/"><a><div className={`${styles.logo} vflex`}>
