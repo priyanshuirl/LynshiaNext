@@ -1,7 +1,3 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-User-agent: *
+User-Agent: *
 Allow: /
 
-Sitemap: https://lynshia.netlify.app/sitemap.xml

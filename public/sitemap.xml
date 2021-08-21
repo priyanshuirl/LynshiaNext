@@ -9,7 +9,48 @@
 
 <url>
   <loc>https://lynshia.netlify.app/</loc>
-  <lastmod>2021-06-30T19:54:42+00:00</lastmod>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/aboutus</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/careers</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/peoplebehindlynshia</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/comingsoon</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/copyright</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/privacypolicy</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/termsofuse</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lynshia.netlify.app/disclaimer</loc>
+  <lastmod>2021-08-21T11:48:23+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
