@@ -1,10 +1,12 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import styles from "../styles/Layout.module.css"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link";
+import LoaderAnim from "./loaderanim";
 
 function Layout({ children }) {
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
         setTimeout(() => {
             document.getElementById("cookienotice").classList.add(styles.cookieactive);
@@ -17,10 +19,14 @@ function Layout({ children }) {
                     document.getElementById("cookienotice").classList.remove(styles.cookieactive);
                 })
             }
-        }, 2000);
+        }, 3000);
     }, []);
+    setTimeout(() => {
+        setLoading(false)
+    }, 1500);
     return (
         <div>
+            {loading && <LoaderAnim />}
             <Navbar />
             <div id="cookiewrap" className={`${styles.cookiewrap} vflex`}>
                 <div id="cookienotice" className={styles.cookienotice}>

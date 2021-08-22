@@ -1,8 +1,17 @@
 import '../styles/globals.css'
 import Layout from '../components/layout'
 import Head from "next/head"
-
+import Router from 'next/router'
+import { useState } from "react"
+import LoaderAnim from '../components/loaderanim'
 function MyApp({ Component, pageProps }) {
+  const [loading, setLoading] = useState(false);
+  Router.events.on("routeChangeStart", (url) => {
+    setLoading(true)
+  })
+  Router.events.on("routeChangeComplete", (url) => {
+    setLoading(false)
+  })
   return (
     <Layout>
       <Head>
@@ -30,9 +39,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="google-site-verification" content="llfUYrSap64bYOnpev1PCoylcbydFGPVF53CvyNBCpU" />
         <meta name='dmca-site-verification' content='eVErMFI5QTdsbTk3ZmkzeGpzQWU4K1ZNMGM1OVJMU2RwUVJKVzZuYWtIND01' />
       </Head>
+      {loading && <LoaderAnim />}
       <noscript>You need to enable JavaScript to run this app.</noscript>
       <Component {...pageProps} />
-    </Layout>)
+    </Layout>
+  )
 }
 
 export default MyApp
