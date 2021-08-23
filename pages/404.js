@@ -18,6 +18,9 @@ export default function FourOFour() {
     if (timer > 0) {
         return (
             <div className={styles.errorwrapper}>
+                <Head>
+                    <title>Page Not Found | 404 Error</title>
+                </Head>
                 <h1>404 error</h1>
                 <h2>The page you're looking for does not seem to exist.<br />
                     Please check if you clicked or entered a valid URL.</h2>
