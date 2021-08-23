@@ -38,3 +38,25 @@
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
+@media all and (min-width: 700px) {
+  .errorwrapper h1 {
+    font-size: 140px;
+  }
+  .errorwrapper h2 {
+    font-size: 28px;
+  }
+  .errorwrapper h3 {
+    font-size: 32px;
+  }
+  .errorwrapper h4 {
+    font-size: 38px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .errorwrapper h1 {
+    margin: 20px 10px 10px 10px;
+  }
+  .errorwrapper h2 {
+    margin: 5px;
+  }
+}
