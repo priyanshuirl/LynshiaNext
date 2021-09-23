@@ -31,11 +31,25 @@ export default function Home() {
           <h1>But with Lynshia by your side it&apos;s never been easier!</h1>
         </div>
       </div>
+      <div className={styles.introban}>
+        <h1>Lynshia is a Women's Health Platform that helps women Manage their Periods, Reduce Cramp Pain, Track their Cycles, and Relieve PMS related problems.</h1>
+      </div>
       <div className={styles.iframecontainer}>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_LI3syHaByM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
       <div className={styles.tile}>
         <h5>What Can Lynshia Do For You?</h5>
+      </div>
+      <div className={styles.topwrapper}>
+        <div className={styles.wrapper}>
+          <div className={styles.statictxt}>Lynshia Helps You</div>
+          <ul className={styles.dynamictxts}>
+            <li><span>Manage Periods.</span></li>
+            <li><span>Reduce Pain.</span></li>
+            <li><span>Track Your Cycles.</span></li>
+            <li><span>Relieve PMS.</span></li>
+          </ul>
+        </div>
       </div>
       <FeatureProto fimage={"/periodtracker.png"} heading="1. Track & Predict" description="Say Goodbye to Unexpected Periods! Lynshia helps you Track and Predict your cycles to prepare you before your menstruation begins." />
 

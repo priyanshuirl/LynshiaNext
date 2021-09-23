@@ -19,6 +19,9 @@ function MyApp({ Component, pageProps }) {
         <link
           href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Lato:wght@100&family=Montserrat:wght@700&family=Poppins:wght@300&family=Roboto:wght@100&display=swap"
           rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
